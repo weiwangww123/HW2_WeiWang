@@ -7,8 +7,12 @@ Created on Wed Sep 14 14:32:27 2022
 
 import numpy as np
 import matplotlib.pyplot as plt
+
+
 def f(x):       #define the function exp(-t**2)
     return np.exp(-x**2)
+
+
 x=np.arange(0,3,0.1) # define array for x
 a=0.0
 b=x
